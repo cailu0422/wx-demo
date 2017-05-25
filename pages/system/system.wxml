@@ -1,0 +1,38 @@
+<!--pages/system/system.wxml-->
+<view class="container">
+  <view class="info-list">
+    <view class="info">
+      <label>model : </label>
+      <text>{{info.model}}</text>
+    </view>
+    <view class="info">
+      <label>pixelRatio : </label>
+      <text>{{info.pixelRatio}}</text>
+    </view>
+    <view class="info">
+      <label>screenWidth : </label>
+      <text>{{info.screenWidth}}</text>
+    </view>
+    <view class="info">
+      <label>screenHeight : </label>
+      <text>{{info.screenHeight}}</text>
+    </view>
+    <view class="info">
+      <label>windowWidth : </label>
+      <text>{{info.windowWidth}}</text>
+    </view>
+    <view class="info">
+      <label>windowHeight : </label>
+      <text>{{info.windowHeight}}</text>
+    </view>
+    <view class="info">
+      <label>system : </label>
+      <text>{{info.system}}</text>
+    </view>
+    <view class="info">
+      <label>platform : </label>
+      <text>{{info.platform}}</text>
+    </view>
+  </view>
+  <button type="primary" bindtap="getInfo">get system info</button>
+</view>

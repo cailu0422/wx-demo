@@ -1,0 +1,9 @@
+/* pages/system/system.wxss */
+.info-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.info {
+  margin: 10rpx;
+}
